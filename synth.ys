@@ -1,0 +1,36 @@
+# read design 
+#read_verilog *.v
+read_verilog FFT_8point.v
+read_verilog FFT_stage1.v
+read_verilog FFT_stage2.v
+read_verilog FFT_stage3.v
+read_verilog BF1.v
+read_verilog BF2.v
+read_verilog complex_mul.v
+read_verilog complex_mul1.v
+read_verilog reg16.v
+read_verilog addSub.v
+read_verilog DFF.v
+#read_verilog *.v 
+hierarchy -check 
+hierarchy -top FFT_8point
+#flatten 
+# high level synthesis 
+proc; opt; clean 
+fsm; opt; clean 
+memory; opt; clean 
+# low level synthesis 
+techmap; opt; clean 
+# map to target architecture 
+dfflibmap -liberty stdcells.lib 
+abc -liberty stdcells.lib 
+# split larger signals 
+splitnets -ports; opt; clean 
+# write synthesis output 
+#write_verilog synth_FFT.v 
+write_verilog synth_FFT_complete_2.v 
+#write_spice synth.sp 
+write_spice synth_FFT_complete_2.sp 
+# print synthesis reports 
+stat 
+stat -liberty stdcells.lib

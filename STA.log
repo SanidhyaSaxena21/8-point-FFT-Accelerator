@@ -1,0 +1,136 @@
+OpenSTA 2.0.17 GITDIR-NOT Copyright (c) 2019, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+[?2004hOpenSTA> st[K[Kreadexitreport_checks[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.67 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.7 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.6 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.5 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1 {clk}[C[C[C[C[C[C[C[C[C[16Plink_design FFT_8point[C[C[C[C[C[C[C[C[Cread_verilog synth_FFT_complete_2.v [C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pliberty stdcells.lib[C[C[C[C[C[C[C[C[C[Cexit[Kread_liberty stdcells.lib 
+[?2004l[?2004hOpenSTA> read_liberty stdcells.lib [C[C[C[C[C[C[C[C[Cexit[Kreport_checks[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.67 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.7 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.6 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.5 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1 {clk}[C[C[C[C[C[C[C[C[C[16Plink_design FFT_8point[C[C[C[C[C[C[C[C[Cread_verilog synth_FFT_complete_2.v 
+[?2004l[?2004hOpenSTA> read_verilog synth_FFT_complete_2.v [C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pliberty stdcells.lib[C[C[C[C[C[C[C[C[C[Cexit[Kreport_checks[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.67 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.7 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.6 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.5 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1 {clk}[C[C[C[C[C[C[C[C[C[16Plink_design FFT_8point[C[C[C[C[C[C[C[C[Cread_verilog synth_FFT_complete_2.v [C[C[C[C[C[C[C[C[C[14Plink_design FFT_8point
+[?2004l[?2004hOpenSTA> link_design FFT_8point[C[C[C[C[C[C[C[C[Cread_verilog synth_FFT_complete_2.v [C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pliberty stdcells.lib[C[C[C[C[C[C[C[C[C[Cexit[Kreport_checks[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.67 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.67 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.67 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Cexit[Kread_liberty stdcells.lib [C[C[C[C[C[C[C[C[Cexit[Kreport_checks[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.67 {clk}
+[?2004l[?2004hOpenSTA> create_clock -name CLK -period 1.67 {clk}[C[C[C[C[C[C[C[C[C[19Plink_design FFT_8point[C[C[C[C[C[C[C[C[Cread_verilog synth_FFT_complete_2.v [C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pliberty stdcells.lib[C[C[C[C[C[C[C[C[C[Cexit[Kreport_checks
+[?2004lStartpoint: stg2/cm2/f1/d1/_5_ (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: stg3/m4/reg1/d16/_5_ (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ stg2/cm2/f1/d1/_5_/CK (DFF_X1)
+   0.15    0.15 ^ stg2/cm2/f1/d1/_5_/Q (DFF_X1)
+   0.14    0.30 ^ stg2/cm2/_1751_/Z (XOR2_X1)
+   0.05    0.35 v stg2/cm2/_1885_/ZN (AOI21_X1)
+   0.06    0.40 v stg2/cm2/_1890_/ZN (XNOR2_X1)
+   0.06    0.47 ^ stg2/cm2/_1892_/ZN (XNOR2_X1)
+   0.07    0.54 ^ stg2/cm2/_1894_/Z (XOR2_X1)
+   0.05    0.59 ^ stg2/cm2/_1896_/ZN (XNOR2_X1)
+   0.07    0.66 ^ stg2/cm2/_1905_/Z (XOR2_X1)
+   0.05    0.71 ^ stg2/cm2/_1907_/ZN (XNOR2_X1)
+   0.05    0.76 ^ stg2/cm2/_1912_/ZN (XNOR2_X1)
+   0.07    0.83 ^ stg2/cm2/_1914_/Z (XOR2_X1)
+   0.03    0.85 v stg2/cm2/_1915_/ZN (XNOR2_X1)
+   0.09    0.95 v stg2/cm2/_1917_/ZN (OR3_X1)
+   0.04    0.99 v stg2/cm2/_1965_/ZN (AND3_X1)
+   0.04    1.03 ^ stg2/cm2/_2012_/ZN (OAI21_X1)
+   0.03    1.06 v stg2/cm2/_2068_/ZN (AOI21_X1)
+   0.11    1.17 ^ stg2/cm2/_2160_/ZN (OAI33_X1)
+   0.04    1.20 v stg2/cm2/_2162_/ZN (OAI21_X1)
+   0.06    1.27 ^ stg2/cm2/_2208_/ZN (AOI21_X1)
+   0.06    1.33 ^ stg2/cm2/_2246_/ZN (XNOR2_X1)
+   0.06    1.39 ^ stg3/m4/_332_/ZN (XNOR2_X1)
+   0.03    1.42 v stg3/m4/_334_/ZN (AOI21_X1)
+   0.05    1.47 ^ stg3/m4/_340_/ZN (OAI21_X1)
+   0.02    1.49 v stg3/m4/_345_/ZN (AOI21_X1)
+   0.05    1.54 ^ stg3/m4/_348_/ZN (AOI21_X1)
+   0.04    1.58 ^ stg3/m4/_350_/ZN (XNOR2_X1)
+   0.01    1.59 v stg3/m4/reg1/d16/_3_/ZN (INV_X1)
+   0.02    1.61 ^ stg3/m4/reg1/d16/_4_/ZN (NOR2_X1)
+   0.00    1.61 ^ stg3/m4/reg1/d16/_5_/D (DFF_X1)
+           1.61   data arrival time
+
+   1.67    1.67   clock CLK (rise edge)
+   0.00    1.67   clock network delay (ideal)
+   0.00    1.67   clock reconvergence pessimism
+           1.67 ^ stg3/m4/reg1/d16/_5_/CK (DFF_X1)
+  -0.03    1.64   library setup time
+           1.64   data required time
+---------------------------------------------------------
+           1.64   data required time
+          -1.61   data arrival time
+---------------------------------------------------------
+           0.03   slack (MET)
+
+
+[?2004hOpenSTA> report_checks[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.67 {clk}[C[C[C[C[C[C[C[C[C[19Plink_design FFT_8point[C[C[C[C[C[C[C[C[Cread_verilog synth_FFT_complete_2.v [C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pliberty stdcells.lib[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10@verilog synth_FFT_complete_2.v[C[C[C[C[C[C[C[C[C[C[14Plink_design FFT_8point[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.67 {clk}[1P {clk}4 {clk}
+[?2004l[?2004hOpenSTA> create_clock -name CLK -period 1.64 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K'[K
+[?2004lStartpoint: stg2/cm2/f1/d1/_5_ (rising edge-triggered flip-flop clocked by CLK)
+Endpoint: stg3/m4/reg1/d16/_5_ (rising edge-triggered flip-flop clocked by CLK)
+Path Group: CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ stg2/cm2/f1/d1/_5_/CK (DFF_X1)
+   0.15    0.15 ^ stg2/cm2/f1/d1/_5_/Q (DFF_X1)
+   0.14    0.30 ^ stg2/cm2/_1751_/Z (XOR2_X1)
+   0.05    0.35 v stg2/cm2/_1885_/ZN (AOI21_X1)
+   0.06    0.40 v stg2/cm2/_1890_/ZN (XNOR2_X1)
+   0.06    0.47 ^ stg2/cm2/_1892_/ZN (XNOR2_X1)
+   0.07    0.54 ^ stg2/cm2/_1894_/Z (XOR2_X1)
+   0.05    0.59 ^ stg2/cm2/_1896_/ZN (XNOR2_X1)
+   0.07    0.66 ^ stg2/cm2/_1905_/Z (XOR2_X1)
+   0.05    0.71 ^ stg2/cm2/_1907_/ZN (XNOR2_X1)
+   0.05    0.76 ^ stg2/cm2/_1912_/ZN (XNOR2_X1)
+   0.07    0.83 ^ stg2/cm2/_1914_/Z (XOR2_X1)
+   0.03    0.85 v stg2/cm2/_1915_/ZN (XNOR2_X1)
+   0.09    0.95 v stg2/cm2/_1917_/ZN (OR3_X1)
+   0.04    0.99 v stg2/cm2/_1965_/ZN (AND3_X1)
+   0.04    1.03 ^ stg2/cm2/_2012_/ZN (OAI21_X1)
+   0.03    1.06 v stg2/cm2/_2068_/ZN (AOI21_X1)
+   0.11    1.17 ^ stg2/cm2/_2160_/ZN (OAI33_X1)
+   0.04    1.20 v stg2/cm2/_2162_/ZN (OAI21_X1)
+   0.06    1.27 ^ stg2/cm2/_2208_/ZN (AOI21_X1)
+   0.06    1.33 ^ stg2/cm2/_2246_/ZN (XNOR2_X1)
+   0.06    1.39 ^ stg3/m4/_332_/ZN (XNOR2_X1)
+   0.03    1.42 v stg3/m4/_334_/ZN (AOI21_X1)
+   0.05    1.47 ^ stg3/m4/_340_/ZN (OAI21_X1)
+   0.02    1.49 v stg3/m4/_345_/ZN (AOI21_X1)
+   0.05    1.54 ^ stg3/m4/_348_/ZN (AOI21_X1)
+   0.04    1.58 ^ stg3/m4/_350_/ZN (XNOR2_X1)
+   0.01    1.59 v stg3/m4/reg1/d16/_3_/ZN (INV_X1)
+   0.02    1.61 ^ stg3/m4/reg1/d16/_4_/ZN (NOR2_X1)
+   0.00    1.61 ^ stg3/m4/reg1/d16/_5_/D (DFF_X1)
+           1.61   data arrival time
+
+   1.64    1.64   clock CLK (rise edge)
+   0.00    1.64   clock network delay (ideal)
+   0.00    1.64   clock reconvergence pessimism
+           1.64 ^ stg3/m4/reg1/d16/_5_/CK (DFF_X1)
+  -0.03    1.61   library setup time
+           1.61   data required time
+---------------------------------------------------------
+           1.61   data required time
+          -1.61   data arrival time
+---------------------------------------------------------
+           0.00   slack (VIOLATED)
+
+
+[?2004hOpenSTA> report_checks[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.64 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.67 {clk}[C[C[C[C[C[C[C[C[C[19Plink_design FFT_8point[C[C[C[C[C[C[C[C[Cread_verilog synth_FFT_complete_2.v [C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pliberty stdcells.lib[C[C[C[C[C[C[C[C[C[Cexit[Kreport_checks[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.67 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.7 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.6 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.5 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1 {clk}[C[C[C[C[C[C[C[C[C[16Plink_design FFT_8point[C[C[C[C[C[C[C[C[Cread_verilog synth_FFT_complete_2.v [C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pliberty stdcells.lib[C[C[C[C[C[C[C[C[C[Cexit[Kreport_power[C[C[C[C[C[C[C[C[Cset_power_activity -global -activity 0.5[1Pinput[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@global[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pinput[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004hOpenSTA> set_power_activity -input -activity 0.5[C[C[C[C[C[C[C[C[C[26Preport_checks[C[C[C[C[C[C[C[C[Cset_power_activity -input -activity 0.5[1P[1P[1P[1P[1P[1@g[1@l[1@o[1@b[1@a[1@;[1P[1@l
+[?2004l[?2004hOpenSTA> set_power_activity -global -activity 0.5[1Pinput[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Preport_checks[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.64 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.67 {clk}[C[C[C[C[C[C[C[C[C[19Plink_design FFT_8point[C[C[C[C[C[C[C[C[Cread_verilog synth_FFT_complete_2.v [C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pliberty stdcells.lib[C[C[C[C[C[C[C[C[C[Cexit[Kreport_checks[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.67 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.7 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.6 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1.5 {clk}[C[C[C[C[C[C[C[C[Creport_checks[K[C[C[C[C[C[C[C[C[Ccreate_clock -name CLK -period 1 {clk}[C[C[C[C[C[C[C[C[C[16Plink_design FFT_8point[C[C[C[C[C[C[C[C[Cread_verilog synth_FFT_complete_2.v [C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pliberty stdcells.lib[C[C[C[C[C[C[C[C[C[Cexit[Kreport_power[C[C[C[C[C[C[C[C[Cset_power_activity -global -activity 0.5[C[C[C[C[C[C[C[C[Creport_power[K
+[?2004lGroup                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power
+----------------------------------------------------------------
+Sequential             1.10e-02   1.33e-03   8.61e-05   1.24e-02  37.1%
+Combinational          1.64e-02   4.51e-03   2.25e-04   2.11e-02  62.9%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  2.74e-02   5.84e-03   3.11e-04   3.36e-02 100.0%
+                          81.7%      17.4%       0.9%
+[?2004hOpenSTA> exit
+[?2004lSaving command history
