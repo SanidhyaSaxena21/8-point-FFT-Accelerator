@@ -25,7 +25,7 @@ This project implements an 8-point FFT using a custom hardware architecture. The
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/8-point-fft-hw-accelerator.git
+   git clone https://github.com/SanidhyaSaxena21/8-point-FFT-Accelerator.git
    cd 8-point-fft-hw-accelerator
 
 
