@@ -33,7 +33,7 @@ This project implements an 8-point FFT using a custom hardware architecture. The
    iverilog -c filelist
    
 ### Architecture Overview
-
+![8-Point FFT Architecture](docs/8 point top level)
 
 
 
