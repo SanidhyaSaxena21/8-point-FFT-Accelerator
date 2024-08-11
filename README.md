@@ -38,7 +38,7 @@ The architecture of an 8-point FFT hardware accelerator is designed to efficient
 ![8-Point FFT Architecture](https://github.com/SanidhyaSaxena21/8-point-FFT-Accelerator/blob/main/docs/8%20point%20top%20level.jpeg)
 
 ### Micro Architecture 
-![8 point FFT MicroArchitecture](https://github.com/SanidhyaSaxena21/8-point-FFT-Accelerator/blob/main/docs/FFT_BD.png)
+![8 point FFT MicroArchitecture](https://github.com/SanidhyaSaxena21/8-point-FFT-Accelerator/blob/main/docs/MicroArchitecture_8point_FFT.png)
 This is the high-level micro architecture of the FFT block. It consists of FFT stages which is where all the combinational logic related to computation is there. We have a control block for generating READY signal when we are done with the computation. Active High reset strategy is used for out design. The designed in throughout pipelined for a higher throughput and for high operating clock frequencies. 
 
 ## Sub block
