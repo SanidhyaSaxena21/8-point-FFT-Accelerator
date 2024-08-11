@@ -27,8 +27,15 @@ This project implements an 8-point FFT using a custom hardware architecture. The
    ```bash
    git clone https://github.com/SanidhyaSaxena21/8-point-FFT-Accelerator.git
    cd 8-point-fft-hw-accelerator
+   
+1. **Compile the Design:**
+   ```bash
+   iverilog -c filelist
+   
+### Architecture Overview
 
 
-## Compiling Design and Running Simualtions 
+
+
 
 
